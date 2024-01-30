@@ -79,11 +79,9 @@ return require("packer").startup(function(use)
     end,
   })
   use({
-    "phaazon/hop.nvim",
-    branch = "v2", -- optional but strongly recommended
-  })
-  use({
     "stevearc/oil.nvim",
   })
   use({ "lewis6991/gitsigns.nvim" })
+  use { "chrisgrieser/nvim-spider" }
+  use({ "ggandor/leap.nvim" })
 end)
